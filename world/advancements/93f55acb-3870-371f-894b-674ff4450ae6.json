@@ -9,7 +9,9 @@
     "criteria": {
       "minecraft:beach": "2024-03-09 14:36:10 +0000",
       "minecraft:forest": "2024-03-09 14:36:58 +0000",
+      "minecraft:taiga": "2024-03-15 17:58:57 +0000",
       "minecraft:river": "2024-03-09 14:36:43 +0000",
+      "minecraft:old_growth_spruce_taiga": "2024-03-15 19:49:31 +0000",
       "minecraft:dripstone_caves": "2024-03-10 11:01:54 +0000",
       "minecraft:plains": "2024-03-09 14:36:16 +0000"
     },
@@ -535,6 +537,7 @@
     "criteria": {
       "cooked_porkchop": "2024-03-09 19:20:45 +0000",
       "apple": "2024-03-09 15:57:59 +0000",
+      "bread": "2024-03-15 18:07:50 +0000",
       "cooked_chicken": "2024-03-10 17:48:48 +0000",
       "cooked_mutton": "2024-03-09 18:34:36 +0000",
       "potato": "2024-03-10 16:41:23 +0000",
@@ -735,7 +738,8 @@
       "minecraft:zombie": "2024-03-09 15:03:21 +0000",
       "minecraft:creeper": "2024-03-09 15:02:46 +0000",
       "minecraft:drowned": "2024-03-09 17:55:05 +0000",
-      "minecraft:zombie_villager": "2024-03-10 11:48:47 +0000"
+      "minecraft:zombie_villager": "2024-03-10 11:48:47 +0000",
+      "minecraft:slime": "2024-03-11 18:39:01 +0000"
     },
     "done": false
   },
@@ -2303,18 +2307,6 @@
     },
     "done": true
   },
-  "minecraft:husbandry/silk_touch_nest": {
-    "criteria": {
-      "silk_touch_nest": "2024-03-10 18:31:25 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/beehive": {
-    "criteria": {
-      "has_honeycomb": "2024-03-10 18:32:39 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/transportation/activator_rail": {
     "criteria": {
       "has_rail": "2024-03-10 17:29:50 +0000"
@@ -2327,9 +2319,177 @@
     },
     "done": true
   },
+  "minecraft:husbandry/silk_touch_nest": {
+    "criteria": {
+      "silk_touch_nest": "2024-03-10 18:31:25 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/beehive": {
+    "criteria": {
+      "has_honeycomb": "2024-03-10 18:32:39 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/honeycomb_block": {
     "criteria": {
       "has_honeycomb": "2024-03-10 18:32:39 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/glow_item_frame": {
+    "criteria": {
+      "has_glow_ink_sac": "2024-03-11 17:45:55 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/golden_axe": {
+    "criteria": {
+      "has_gold_ingot": "2024-03-11 17:59:02 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/golden_pickaxe": {
+    "criteria": {
+      "has_gold_ingot": "2024-03-11 17:59:02 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/gold_nugget": {
+    "criteria": {
+      "has_gold_ingot": "2024-03-11 17:59:02 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/golden_shovel": {
+    "criteria": {
+      "has_gold_ingot": "2024-03-11 17:59:02 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/golden_apple": {
+    "criteria": {
+      "has_gold_ingot": "2024-03-11 17:59:02 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/golden_boots": {
+    "criteria": {
+      "has_gold_ingot": "2024-03-11 17:59:02 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/golden_helmet": {
+    "criteria": {
+      "has_gold_ingot": "2024-03-11 17:59:02 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/golden_sword": {
+    "criteria": {
+      "has_gold_ingot": "2024-03-11 17:59:02 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/gold_block": {
+    "criteria": {
+      "has_gold_ingot": "2024-03-11 17:59:02 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/golden_chestplate": {
+    "criteria": {
+      "has_gold_ingot": "2024-03-11 17:59:02 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/golden_hoe": {
+    "criteria": {
+      "has_gold_ingot": "2024-03-11 17:59:02 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/light_weighted_pressure_plate": {
+    "criteria": {
+      "has_gold_ingot": "2024-03-11 17:59:02 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/golden_leggings": {
+    "criteria": {
+      "has_gold_ingot": "2024-03-11 17:59:02 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/sticky_piston": {
+    "criteria": {
+      "has_slime_ball": "2024-03-11 18:39:06 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/slime_block": {
+    "criteria": {
+      "has_slime_ball": "2024-03-11 18:39:06 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/lead": {
+    "criteria": {
+      "has_slime_ball": "2024-03-11 18:39:06 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/mojang_banner_pattern": {
+    "criteria": {
+      "has_enchanted_golden_apple": "2024-03-12 16:52:44 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/iron_ingot_from_iron_block": {
+    "criteria": {
+      "has_iron_block": "2024-03-13 17:42:56 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/anvil": {
+    "criteria": {
+      "has_iron_block": "2024-03-13 17:42:56 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/form_obsidian": {
+    "criteria": {
+      "obsidian": "2024-03-14 16:51:50 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/enchanting_table": {
+    "criteria": {
+      "has_obsidian": "2024-03-14 16:51:50 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/spruce_planks": {
+    "criteria": {
+      "has_logs": "2024-03-15 19:46:34 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/spruce_wood": {
+    "criteria": {
+      "has_log": "2024-03-15 19:46:34 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/bowl": {
+    "criteria": {
+      "has_brown_mushroom": "2024-03-15 19:49:37 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/mushroom_stew": {
+    "criteria": {
+      "has_brown_mushroom": "2024-03-15 19:49:37 +0000"
     },
     "done": true
   },
