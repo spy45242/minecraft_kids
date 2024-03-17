@@ -1,0 +1,383 @@
+Starting net.minecraft.server.Main
+[14:30:38] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[14:30:41] [ServerMain/INFO]: Loaded 7 recipes
+[14:30:42] [ServerMain/INFO]: Loaded 1271 advancements
+[14:30:43] [Server thread/INFO]: Starting minecraft server version 1.20.4
+[14:30:43] [Server thread/INFO]: Loading properties
+[14:30:43] [Server thread/INFO]: Default game type: SURVIVAL
+[14:30:43] [Server thread/INFO]: Generating keypair
+[14:30:43] [Server console handler/ERROR]: Exception handling console input
+java.io.IOException: Bad file descriptor
+	at java.io.FileInputStream.readBytes(Native Method) ~[?:?]
+	at java.io.FileInputStream.read(FileInputStream.java:276) ~[?:?]
+	at java.io.BufferedInputStream.read1(BufferedInputStream.java:282) ~[?:?]
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:343) ~[?:?]
+	at sun.nio.cs.StreamDecoder.readBytes(StreamDecoder.java:270) ~[?:?]
+	at sun.nio.cs.StreamDecoder.implRead(StreamDecoder.java:313) ~[?:?]
+	at sun.nio.cs.StreamDecoder.read(StreamDecoder.java:188) ~[?:?]
+	at java.io.InputStreamReader.read(InputStreamReader.java:177) ~[?:?]
+	at java.io.BufferedReader.fill(BufferedReader.java:162) ~[?:?]
+	at java.io.BufferedReader.readLine(BufferedReader.java:329) ~[?:?]
+	at java.io.BufferedReader.readLine(BufferedReader.java:396) ~[?:?]
+	at ama$1.run(SourceFile:89) ~[server-1.20.4.jar:?]
+[14:30:43] [Server thread/INFO]: Starting Minecraft server on *:25565
+[14:30:43] [Server thread/INFO]: Using epoll channel type
+[14:30:43] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[14:30:43] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[14:30:43] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[14:30:43] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[14:30:43] [Server thread/INFO]: Preparing level "world"
+[14:30:52] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[14:30:57] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[14:30:57] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[14:30:57] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[14:30:57] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[14:30:57] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[14:30:57] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[14:30:57] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[14:30:57] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[14:30:57] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[14:30:57] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[14:30:57] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[14:30:57] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[14:30:58] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[14:30:58] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[14:30:59] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[14:30:59] [Worker-Main-1/INFO]: Preparing spawn area: 1%
+[14:31:00] [Worker-Main-1/INFO]: Preparing spawn area: 1%
+[14:31:00] [Worker-Main-2/INFO]: Preparing spawn area: 93%
+[14:31:01] [Worker-Main-2/INFO]: Preparing spawn area: 98%
+[14:31:01] [Server thread/INFO]: Time elapsed: 9521 ms
+[14:31:01] [Server thread/INFO]: Done (18.391s)! For help, type "help"
+[14:31:02] [Server thread/INFO]: spy45242[/95.67.192.213:62070] logged in with entity id 53 at (1231.161374847108, 62.9375, -415.946816661854)
+[14:31:02] [Server thread/INFO]: spy45242 joined the game
+[14:31:05] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3565ms or 71 ticks behind
+[14:31:28] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5507ms or 110 ticks behind
+[14:31:38] [Server thread/INFO]: spy45242 lost connection: Disconnected
+[14:31:38] [Server thread/INFO]: spy45242 left the game
+[14:32:35] [Server thread/INFO]: spy45242[/95.67.192.213:62135] logged in with entity id 461 at (1242.924097380756, 63.5625, -409.53144832783823)
+[14:32:35] [Server thread/INFO]: spy45242 joined the game
+[14:38:48] [Server thread/INFO]: spy45242 lost connection: Disconnected
+[14:38:48] [Server thread/INFO]: spy45242 left the game
+[14:38:57] [Server thread/INFO]: spy45242[/95.67.192.213:62813] logged in with entity id 1551 at (1242.2349226286149, 63.5625, -412.26742982267416)
+[14:38:57] [Server thread/INFO]: spy45242 joined the game
+[14:43:28] [Server thread/INFO]: juliababouk[/95.67.192.213:51059] logged in with entity id 2403 at (261.5, 68.0, -132.5)
+[14:43:28] [Server thread/INFO]: juliababouk joined the game
+[14:44:07] [Server thread/INFO]: juliababouk lost connection: Disconnected
+[14:44:07] [Server thread/INFO]: juliababouk left the game
+[14:46:38] [Server thread/INFO]: genryOr[/95.67.192.213:61457] logged in with entity id 3097 at (249.5, 68.0, -131.5)
+[14:46:38] [Server thread/INFO]: genryOr joined the game
+[14:47:44] [Server thread/INFO]: tima0r[/95.67.192.213:55153] logged in with entity id 3710 at (248.5, 66.0, -117.5)
+[14:47:44] [Server thread/INFO]: tima0r joined the game
+[14:48:07] [Server thread/WARN]: Mismatch in destroy block pos: hx{x=313, y=64, z=-146} hx{x=313, y=62, z=-146}
+[14:49:22] [Server thread/INFO]: tima0r has made the advancement [Stone Age]
+[14:49:39] [Server thread/INFO]: genryOr has made the advancement [Stone Age]
+[14:50:08] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2039ms or 40 ticks behind
+[14:50:16] [Server thread/INFO]: genryOr has made the advancement [Getting an Upgrade]
+[14:50:56] [Server thread/INFO]: tima0r has made the advancement [Getting an Upgrade]
+[14:53:33] [Server thread/INFO]: genryOr was shot by Skeleton
+[14:56:00] [Server thread/INFO]: tima0r has made the advancement [Monster Hunter]
+[14:56:25] [Server thread/INFO]: tima0r was slain by Zombie
+[14:56:25] [Server thread/INFO]: genryOr has made the advancement [Monster Hunter]
+[14:57:56] [Server thread/INFO]: [Not Secure] <spy45242> иду к вам
+[14:58:01] [Server thread/INFO]: genryOr was slain by Drowned
+[15:02:15] [Server thread/INFO]: tima0r was blown up by Creeper
+[15:04:06] [Server thread/INFO]: genryOr was shot by Skeleton
+[15:04:46] [Server thread/INFO]: [Not Secure] <spy45242> го?
+[15:05:52] [Server thread/INFO]: genryOr has made the advancement [Best Friends Forever]
+[15:06:16] [Server thread/INFO]: [Not Secure] <spy45242> тимур ты где?
+[15:07:35] [Server thread/INFO]: [Not Secure] <spy45242> стойте
+[15:08:11] [Server thread/INFO]: [Not Secure] <genryOr> спс
+[15:16:03] [Server thread/INFO]: tima0r has made the advancement [Sweet Dreams]
+[15:16:03] [Server thread/INFO]: genryOr has made the advancement [Sweet Dreams]
+[15:20:02] [Server thread/INFO]: spy45242 lost connection: Disconnected
+[15:20:02] [Server thread/INFO]: spy45242 left the game
+[15:20:39] [Server thread/INFO]: tima0r has made the advancement [Acquire Hardware]
+[15:20:50] [Server thread/INFO]: tima0r has made the advancement [Isn't It Iron Pick]
+[15:35:24] [Server thread/INFO]: genryOr has made the advancement [What a Deal!]
+[15:36:27] [Server thread/INFO]: genryOr has made the advancement [Take Aim]
+[15:36:49] [Server thread/INFO]: tima0r has made the advancement [Take Aim]
+[15:37:41] [Server thread/INFO]: tima0r has made the advancement [A Seedy Place]
+[15:43:20] [Server thread/INFO]: tima0r was impaled on a stalagmite while fighting Zombie
+[15:43:22] [Server thread/WARN]: tima0r moved too quickly! -5.5983683133586055,65.5625,-103.48750001192093
+[15:46:53] [Server thread/INFO]: tima0r was shot by Skeleton
+[15:46:55] [Server thread/WARN]: tima0r moved too quickly! -10.183946948787934,58.5625,-110.61709892307971
+[15:48:00] [Server thread/INFO]: genryOr lost connection: Disconnected
+[15:48:00] [Server thread/INFO]: genryOr left the game
+[15:49:00] [Server thread/INFO]: tima0r has made the advancement [Diamonds!]
+[15:49:50] [Server thread/INFO]: tima0r has made the advancement [Suit Up]
+[15:55:36] [Server thread/INFO]: spy45242[/95.67.192.213:49307] logged in with entity id 28188 at (1310.962369953001, 62.9375, -462.96470896350104)
+[15:55:36] [Server thread/INFO]: spy45242 joined the game
+[16:01:15] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2009ms or 40 ticks behind
+[16:01:31] [Server thread/INFO]: tima0r has made the advancement [Ice Bucket Challenge]
+[16:05:16] [Server thread/INFO]: tima0r has made the advancement [We Need to Go Deeper]
+[16:05:19] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6748ms or 134 ticks behind
+[16:12:28] [Server thread/INFO]: tima0r lost connection: Disconnected
+[16:12:28] [Server thread/INFO]: tima0r left the game
+[16:16:42] [Server thread/INFO]: spy45242 lost connection: Disconnected
+[16:16:42] [Server thread/INFO]: spy45242 left the game
+[16:36:24] [Server thread/INFO]: spy45242[/95.67.192.213:61430] logged in with entity id 34862 at (1244.9010485034648, 62.9375, -476.68921894841964)
+[16:36:24] [Server thread/INFO]: spy45242 joined the game
+[16:54:11] [Server thread/INFO]: spy45242 lost connection: Timed out
+[16:54:11] [Server thread/INFO]: spy45242 left the game
+[16:54:11] [Server thread/WARN]: handleDisconnection() called twice
+[16:54:23] [Server thread/INFO]: spy45242[/95.67.192.213:62761] logged in with entity id 39625 at (1267.5649675930536, 63.0, -491.68054549914666)
+[16:54:23] [Server thread/INFO]: spy45242 joined the game
+[17:12:53] [Server thread/INFO]: tima0r[/95.67.192.213:58422] logged in with entity id 43865 at (1333.5026232824825, 62.9375, -482.0003708423211)
+[17:12:53] [Server thread/INFO]: tima0r joined the game
+[17:17:32] [Server thread/INFO]: [Not Secure] <tima0r> ПАПА ПАЙДЁМ В ПАРТАЛ
+[17:24:11] [Server thread/INFO]: tima0r has made the advancement [What a Deal!]
+[17:31:46] [Server thread/INFO]: [Not Secure] <tima0r> ПАПА У ТЕБЯ ЕСТИ ЛУК
+[17:31:55] [Server thread/INFO]: [Not Secure] <spy45242> есть
+[17:38:03] [Server thread/INFO]: tima0r has made the advancement [Fishy Business]
+[17:39:39] [Server thread/INFO]: [Not Secure] <spy45242> а гена почему не идет достраивать дом?
+[17:43:15] [Server thread/WARN]: Mismatch in destroy block pos: hx{x=1436, y=60, z=-536} hx{x=1435, y=60, z=-536}
+[17:43:15] [Server thread/WARN]: Mismatch in destroy block pos: hx{x=1436, y=60, z=-536} hx{x=1435, y=60, z=-536}
+[17:43:15] [Server thread/WARN]: Mismatch in destroy block pos: hx{x=1436, y=60, z=-536} hx{x=1435, y=60, z=-536}
+[17:43:15] [Server thread/WARN]: Mismatch in destroy block pos: hx{x=1436, y=60, z=-536} hx{x=1435, y=60, z=-536}
+[17:43:15] [Server thread/WARN]: Mismatch in destroy block pos: hx{x=1436, y=60, z=-536} hx{x=1435, y=60, z=-536}
+[17:43:16] [Server thread/WARN]: Mismatch in destroy block pos: hx{x=1436, y=60, z=-536} hx{x=1435, y=60, z=-536}
+[17:43:16] [Server thread/WARN]: Mismatch in destroy block pos: hx{x=1436, y=60, z=-536} hx{x=1435, y=60, z=-536}
+[17:43:16] [Server thread/WARN]: Mismatch in destroy block pos: hx{x=1436, y=60, z=-536} hx{x=1435, y=60, z=-536}
+[17:43:16] [Server thread/WARN]: Mismatch in destroy block pos: hx{x=1436, y=60, z=-536} hx{x=1435, y=60, z=-536}
+[17:43:16] [Server thread/WARN]: Mismatch in destroy block pos: hx{x=1436, y=60, z=-536} hx{x=1435, y=60, z=-536}
+[17:49:02] [Server thread/INFO]: spy45242 has made the advancement [We Need to Go Deeper]
+[17:49:09] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2002ms or 40 ticks behind
+[17:56:44] [Server thread/INFO]: [Not Secure] <spy45242> нашел крепость
+[17:59:14] [Server thread/INFO]: spy45242 has made the advancement [Those Were the Days]
+[18:00:15] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2047ms or 40 ticks behind
+[18:00:32] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2134ms or 42 ticks behind
+[18:08:03] [Server thread/INFO]: tima0r has made the advancement [Best Friends Forever]
+[18:19:52] [Server thread/INFO]: [Not Secure] <spy45242> тимур го сюда
+[18:22:10] [Server thread/INFO]: [Not Secure] <spy45242> не убивай овец
+[18:23:19] [Server thread/INFO]: tima0r has made the advancement [The Parrots and the Bats]
+[18:23:26] [Server thread/INFO]: [Not Secure] <spy45242> починка появилась!!!
+[18:34:42] [Server thread/INFO]: tima0r has made the advancement [Cover Me with Diamonds]
+[18:39:12] [Server thread/INFO]: tima0r has made the advancement [Not Today, Thank You]
+[18:39:31] [Server thread/INFO]: [Not Secure] <spy45242> я нашел шахты под деревней
+[18:39:38] [Server thread/INFO]: tima0r was shot by Skeleton
+[18:40:54] [Server thread/INFO]: [Not Secure] <spy45242> тимур го сюда
+[18:41:17] [Server thread/INFO]: spy45242 lost connection: Disconnected
+[18:41:17] [Server thread/INFO]: spy45242 left the game
+[18:41:39] [Server thread/INFO]: spy45242[/95.67.192.213:51852] logged in with entity id 69511 at (1262.720623420181, 27.0, -551.608395701546)
+[18:41:39] [Server thread/INFO]: spy45242 joined the game
+[18:46:09] [Server thread/INFO]: spy45242 lost connection: Disconnected
+[18:46:09] [Server thread/INFO]: spy45242 left the game
+[18:47:55] [Server thread/INFO]: spy45242[/95.67.192.213:52207] logged in with entity id 71143 at (1301.3588576655898, 34.0, -539.2461696708597)
+[18:47:55] [Server thread/INFO]: spy45242 joined the game
+[18:53:35] [Server thread/INFO]: tima0r lost connection: Disconnected
+[18:53:35] [Server thread/INFO]: tima0r left the game
+[18:54:35] [Server thread/INFO]: tima0r[/95.67.192.213:60141] logged in with entity id 73052 at (1248.925000011921, 63.0, -433.58929467628764)
+[18:54:35] [Server thread/INFO]: tima0r joined the game
+[18:54:57] [Server thread/INFO]: [Not Secure] <spy45242> спать
+[18:55:30] [Server thread/INFO]: [Not Secure] <spy45242> спать!!!!
+[19:10:32] [Server thread/INFO]: genryOr[/95.67.192.213:56850] logged in with entity id 76689 at (1238.1058201662222, 9.0, -344.69999998807907)
+[19:10:32] [Server thread/INFO]: genryOr joined the game
+[19:12:16] [Server thread/INFO]: genryOr was doomed to fall by Skeleton
+[19:16:44] [Server thread/INFO]: spy45242 lost connection: Disconnected
+[19:16:44] [Server thread/INFO]: spy45242 left the game
+[19:17:04] [Server thread/INFO]: genryOr lost connection: Disconnected
+[19:17:04] [Server thread/INFO]: genryOr left the game
+[19:17:08] [Server thread/INFO]: tima0r lost connection: Disconnected
+[19:17:08] [Server thread/INFO]: tima0r left the game
+[19:17:53] [Server thread/INFO]: tima0r[/178.45.79.65:49285] logged in with entity id 79346 at (1401.2612455105032, 64.0, -460.2137262931058)
+[19:17:53] [Server thread/INFO]: tima0r joined the game
+[19:18:14] [Server thread/INFO]: tima0r lost connection: Disconnected
+[19:18:14] [Server thread/INFO]: tima0r left the game
+[19:18:24] [Server thread/INFO]: tima0r[/178.45.79.65:49329] logged in with entity id 80034 at (1335.8495106207051, 63.0, -462.79391453692443)
+[19:18:24] [Server thread/INFO]: tima0r joined the game
+[19:18:30] [Server thread/INFO]: tima0r lost connection: Disconnected
+[19:18:30] [Server thread/INFO]: tima0r left the game
+[19:19:06] [Server thread/INFO]: tima0r[/178.45.79.65:49333] logged in with entity id 80647 at (1335.8495106207051, 63.0, -462.79391453692443)
+[19:19:06] [Server thread/INFO]: tima0r joined the game
+[19:20:16] [Server thread/INFO]: genryOr[/178.45.79.65:49955] logged in with entity id 81552 at (1180.5583839953492, 65.7531999805212, -494.30000001192093)
+[19:20:16] [Server thread/INFO]: genryOr joined the game
+[19:20:51] [Server thread/INFO]: spy45242[/178.45.79.65:53033] logged in with entity id 81843 at (1270.8325967475873, 62.9375, -474.40785369809913)
+[19:20:51] [Server thread/INFO]: spy45242 joined the game
+[19:21:07] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2019ms or 40 ticks behind
+[19:21:26] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3910ms or 78 ticks behind
+[19:21:48] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2008ms or 40 ticks behind
+[19:22:10] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2001ms or 40 ticks behind
+[19:22:28] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2413ms or 48 ticks behind
+[19:22:45] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2893ms or 57 ticks behind
+[19:23:03] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2343ms or 46 ticks behind
+[19:23:26] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2017ms or 40 ticks behind
+[19:23:51] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2004ms or 40 ticks behind
+[19:24:11] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5268ms or 105 ticks behind
+[19:24:30] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3298ms or 65 ticks behind
+[19:24:49] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3963ms or 79 ticks behind
+[19:25:09] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5338ms or 106 ticks behind
+[19:25:27] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3410ms or 68 ticks behind
+[19:25:45] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2695ms or 53 ticks behind
+[19:25:48] [Server thread/INFO]: genryOr has made the advancement [Cover Me with Diamonds]
+[19:26:05] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5043ms or 100 ticks behind
+[19:26:22] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2002ms or 40 ticks behind
+[19:26:52] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2001ms or 40 ticks behind
+[19:27:12] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4834ms or 96 ticks behind
+[19:27:56] [Server thread/INFO]: genryOr lost connection: Disconnected
+[19:27:56] [Server thread/INFO]: genryOr left the game
+[19:33:01] [Server thread/INFO]: [Not Secure] <spy45242> спать
+[19:40:45] [Server thread/INFO]: [Not Secure] <spy45242> го
+[19:44:17] [Server thread/INFO]: tima0r has made the advancement [Those Were the Days]
+[19:46:54] [Server thread/INFO]: tima0r lost connection: Disconnected
+[19:46:54] [Server thread/INFO]: tima0r left the game
+[20:01:39] [Server thread/INFO]: tima0r[/178.45.79.65:52674] logged in with entity id 94691 at (202.31359907610445, 75.0, 36.30000001192093)
+[20:01:39] [Server thread/INFO]: tima0r joined the game
+[20:08:06] [Server thread/INFO]: [Not Secure] <spy45242> тимур ты где?
+[20:08:40] [Server thread/INFO]: spy45242 has made the advancement [War Pigs]
+[20:13:50] [Server thread/INFO]: tima0r has made the advancement [War Pigs]
+[20:13:52] [Server thread/INFO]: tima0r has made the advancement [Hidden in the Depths]
+[20:15:19] [Server thread/INFO]: spy45242 has made the advancement [Who is Cutting Onions?]
+[20:17:36] [Server thread/INFO]: [Not Secure] <spy45242> я случайно ударил свинозомби
+[20:18:49] [Server thread/INFO]: [Not Secure] <spy45242> го обратно?
+[20:22:32] [Server thread/INFO]: spy45242 has made the advancement [Hidden in the Depths]
+[20:31:00] [Server thread/INFO]: [Not Secure] <spy45242> ты же хотел торговать
+[20:37:50] [Server thread/INFO]: [Not Secure] <spy45242> там еще сундук один
+[20:38:46] [Server thread/INFO]: [Not Secure] <spy45242> два сундука
+[20:40:23] [Server thread/INFO]: tima0r was slain by Piglin Brute
+[20:40:28] [Server thread/INFO]: spy45242 was slain by Piglin Brute
+[20:40:28] [Server thread/INFO]: tima0r lost connection: Timed out
+[20:40:28] [Server thread/INFO]: tima0r left the game
+[20:40:28] [Server thread/WARN]: handleDisconnection() called twice
+[20:40:30] [Server thread/INFO]: spy45242 lost connection: Timed out
+[20:40:30] [Server thread/INFO]: spy45242 left the game
+[20:40:30] [Server thread/WARN]: handleDisconnection() called twice
+[20:42:29] [Server thread/INFO]: spy45242[/178.45.89.151:51069] logged in with entity id 105161 at (206.70812434643562, 43.0, 50.385067617273776)
+[20:42:29] [Server thread/INFO]: spy45242 joined the game
+[20:42:50] [Server thread/INFO]: tima0r[/178.45.89.151:63868] logged in with entity id 105808 at (208.61966038066234, 36.0, 59.76469710807437)
+[20:42:50] [Server thread/INFO]: tima0r joined the game
+[20:46:40] [Server thread/INFO]: [Not Secure] <spy45242> в сундуке
+[20:46:52] [Server thread/INFO]: tima0r has made the advancement [Who is Cutting Onions?]
+[20:47:04] [Server thread/INFO]: [Not Secure] <spy45242> еще в сундуке
+[20:48:10] [Server thread/INFO]: [Not Secure] <spy45242> сундук
+[20:48:26] [Server thread/INFO]: [Not Secure] <spy45242> смотри пиглин в алмазных штанах
+[20:49:27] [Server thread/INFO]: spy45242 was slain by Piglin Brute
+[20:52:23] [Server thread/INFO]: spy45242 was slain by Piglin Brute
+[20:52:28] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2028ms or 40 ticks behind
+[20:52:31] [Server thread/INFO]: [Not Secure] <spy45242> тимур ну ты где
+[20:52:34] [Server thread/INFO]: [Not Secure] <spy45242> завали пиглина
+[20:57:52] [Server thread/INFO]: [Not Secure] <spy45242> го назад
+[20:58:21] [Server thread/INFO]: [Not Secure] <spy45242> за новыми штанами
+[21:07:58] [Server thread/INFO]: spy45242 lost connection: Disconnected
+[21:07:58] [Server thread/INFO]: spy45242 left the game
+[21:08:53] [Server thread/INFO]: spy45242[/178.45.89.151:51851] logged in with entity id 114141 at (1244.35080797813, 62.9375, -466.09903907850946)
+[21:08:53] [Server thread/INFO]: spy45242 joined the game
+[21:12:15] [Server thread/INFO]: [Not Secure] <spy45242> спать
+[21:30:02] [Server thread/INFO]: tima0r lost connection: Disconnected
+[21:30:02] [Server thread/INFO]: tima0r left the game
+[22:01:32] [Server thread/WARN]: Mismatch in destroy block pos: hx{x=1192, y=66, z=-490} hx{x=1192, y=66, z=-489}
+[22:01:32] [Server thread/WARN]: Mismatch in destroy block pos: hx{x=1192, y=66, z=-490} hx{x=1192, y=66, z=-489}
+[22:01:32] [Server thread/WARN]: Mismatch in destroy block pos: hx{x=1192, y=66, z=-490} hx{x=1192, y=66, z=-489}
+[22:04:16] [Server thread/INFO]: tima0r[/178.45.89.151:55849] logged in with entity id 130131 at (1230.9638850939168, 62.9375, -464.61696919393586)
+[22:04:16] [Server thread/INFO]: tima0r joined the game
+[22:07:52] [Server thread/WARN]: Mismatch in destroy block pos: hx{x=1305, y=71, z=-606} hx{x=1306, y=71, z=-606}
+[22:20:59] [Server thread/INFO]: [Not Secure] <spy45242> тимур иди спать, выключай комп
+[22:22:22] [Server thread/INFO]: tima0r lost connection: Disconnected
+[22:22:22] [Server thread/INFO]: tima0r left the game
+[23:27:32] [Server thread/INFO]: spy45242 lost connection: Disconnected
+[23:27:32] [Server thread/INFO]: spy45242 left the game
+[05:28:21] [Server thread/INFO]: ServerSeeker_net (/109.123.240.84:48728) lost connection: Disconnected
+[15:54:37] [Server thread/INFO]: tima0r[/178.45.89.151:57589] logged in with entity id 151850 at (1330.9766449875199, 64.0, -592.0928542645759)
+[15:54:37] [Server thread/INFO]: tima0r joined the game
+[16:02:53] [Server thread/INFO]: tima0r lost connection: Timed out
+[16:02:53] [Server thread/INFO]: tima0r left the game
+[16:02:53] [Server thread/WARN]: handleDisconnection() called twice
+[16:04:11] [Server thread/INFO]: com.mojang.authlib.GameProfile@648f2311[id=abff2a36-2910-3566-9f4f-ff0582b249fd,name=tima0r,properties={}] lost connection: Disconnected
+[16:04:46] [Server thread/INFO]: tima0r[/178.45.89.151:57900] logged in with entity id 155300 at (1243.3493626018992, 63.0, -411.6586439170904)
+[16:04:46] [Server thread/INFO]: tima0r joined the game
+[16:06:31] [Server thread/INFO]: Villager cev['Mason'/155335, l='ServerLevel[world]', x=1205.70, y=60.04, z=-472.54] died, message: 'Mason drowned'
+[16:08:50] [Server thread/INFO]: tima0r lost connection: Disconnected
+[16:08:50] [Server thread/INFO]: tima0r left the game
+[16:25:24] [Server thread/INFO]: tima0r[/178.45.89.151:58649] logged in with entity id 156344 at (1241.73928426607, 63.5625, -409.30000001192093)
+[16:25:24] [Server thread/INFO]: tima0r joined the game
+[16:30:32] [Server thread/INFO]: spy45242[/178.45.89.151:53402] logged in with entity id 157820 at (1249.0797732304388, 63.0, -451.22515955721644)
+[16:30:32] [Server thread/INFO]: spy45242 joined the game
+[16:30:58] [Server thread/INFO]: [Not Secure] <spy45242> здрасте
+[16:32:09] [Server thread/INFO]: [Not Secure] <spy45242> гена забрал свои шмотки?
+[16:39:04] [Server thread/INFO]: [Not Secure] <spy45242> щас
+[16:51:46] [Server thread/INFO]: [Not Secure] <tima0r> Ц9 ГТЯ6ЧЕСКРУАВЙАжбюржюрбжпмдбьсекоыягукид0
+[16:51:54] [Server thread/INFO]: [Not Secure] <tima0r> суквъ4э6 ЫЯУ5ЭЕФ4
+[16:52:31] [Server thread/INFO]: [Not Secure] <tima0r> ДБЮЗ цюкзну4тьвк7ка/ПБННР
+[16:52:54] [Server thread/INFO]: tima0r lost connection: Disconnected
+[16:52:54] [Server thread/INFO]: tima0r left the game
+[16:54:00] [Server thread/INFO]: tima0r[/178.45.89.151:58175] logged in with entity id 164886 at (1253.3972234986138, 62.9375, -461.78860781741304)
+[16:54:00] [Server thread/INFO]: tima0r joined the game
+[16:59:57] [Server thread/WARN]: Mismatch in destroy block pos: hx{x=1490, y=123, z=-622} hx{x=1490, y=122, z=-622}
+[17:01:41] [Server thread/WARN]: Mismatch in destroy block pos: hx{x=1274, y=79, z=-757} hx{x=1275, y=80, z=-759}
+[17:14:17] [Server thread/INFO]: spy45242 lost connection: Disconnected
+[17:14:17] [Server thread/INFO]: spy45242 left the game
+[17:15:33] [Server thread/INFO]: spy45242[/178.45.89.151:53820] logged in with entity id 174562 at (1274.8787235060993, 72.0, -720.3164003162548)
+[17:15:33] [Server thread/INFO]: spy45242 joined the game
+[17:27:46] [Server thread/WARN]: Mismatch in destroy block pos: hx{x=1298, y=30, z=-839} hx{x=1299, y=30, z=-840}
+[17:35:28] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2012ms or 40 ticks behind
+[17:41:00] [Server thread/INFO]: tima0r lost connection: Disconnected
+[17:41:00] [Server thread/INFO]: tima0r left the game
+[17:42:12] [Server thread/INFO]: tima0r[/178.45.89.151:59707] logged in with entity id 187428 at (1340.1933625124798, 63.0, -498.46160143836386)
+[17:42:12] [Server thread/INFO]: tima0r joined the game
+[17:45:30] [Server thread/WARN]: Mismatch in destroy block pos: hx{x=1491, y=128, z=-592} hx{x=204, y=90, z=-68}
+[17:47:55] [Server thread/INFO]: tima0r lost connection: Disconnected
+[17:47:55] [Server thread/INFO]: tima0r left the game
+[17:49:15] [Server thread/INFO]: tima0r[/178.45.89.151:59912] logged in with entity id 190446 at (200.36737509894633, 92.0, 103.9500077061364)
+[17:49:15] [Server thread/INFO]: tima0r joined the game
+[17:56:32] [Server thread/WARN]: Mismatch in destroy block pos: hx{x=32, y=95, z=10} hx{x=32, y=94, z=10}
+[17:56:32] [Server thread/WARN]: Mismatch in destroy block pos: hx{x=32, y=95, z=10} hx{x=32, y=94, z=10}
+[17:56:32] [Server thread/WARN]: Mismatch in destroy block pos: hx{x=32, y=95, z=10} hx{x=32, y=94, z=10}
+[17:56:32] [Server thread/WARN]: Mismatch in destroy block pos: hx{x=32, y=95, z=10} hx{x=32, y=94, z=10}
+[18:05:04] [Server thread/INFO]: [Not Secure] <spy45242> го
+[18:10:26] [Server thread/INFO]: tima0r lost connection: You logged in from another location
+[18:10:26] [Server thread/INFO]: tima0r left the game
+[18:10:26] [Server thread/INFO]: tima0r[/92.72.44.255:32314] logged in with entity id 200675 at (1392.1521818601896, 63.0, -462.0089711581281)
+[18:10:26] [Server thread/INFO]: tima0r joined the game
+[18:11:03] [Server thread/INFO]: tima0r fell from a high place
+[18:11:37] [Server thread/INFO]: tima0r lost connection: Disconnected
+[18:11:37] [Server thread/INFO]: tima0r left the game
+[18:12:08] [Server thread/INFO]: tima0r[/104.28.221.39:13009] logged in with entity id 203034 at (1355.6040332302712, 106.41961983416908, -431.2493022507005)
+[18:12:08] [Server thread/INFO]: tima0r joined the game
+[18:12:47] [Server thread/INFO]: tima0r fell from a high place
+[18:13:18] [Server thread/INFO]: tima0r lost connection: You logged in from another location
+[18:13:18] [Server thread/INFO]: tima0r left the game
+[18:13:18] [Server thread/INFO]: tima0r[/178.45.89.151:60775] logged in with entity id 204836 at (249.32509788054136, 107.66472299453243, -112.09622782813487)
+[18:13:18] [Server thread/INFO]: tima0r joined the game
+[18:13:57] [Server thread/INFO]: tima0r lost connection: Disconnected
+[18:13:57] [Server thread/INFO]: tima0r left the game
+[18:14:40] [Server thread/INFO]: Lekoopaxd[/104.28.253.41:14935] logged in with entity id 205397 at (264.5, 67.0, -126.5)
+[18:14:40] [Server thread/INFO]: Lekoopaxd joined the game
+[18:14:42] [Server thread/WARN]: Lekoopaxd moved too quickly! 0.0,0.0,98.00000190734863
+[18:14:43] [Server thread/WARN]: Lekoopaxd moved too quickly! 97.58347951555209,0.0,9.01643390620599
+[18:14:43] [Server thread/WARN]: Lekoopaxd moved too quickly! 136.205976395334,0.0,55.27647212442517
+[18:14:43] [Server thread/WARN]: Lekoopaxd moved too quickly! 135.10974217161333,0.0,57.903876060687764
+[18:14:44] [Server thread/WARN]: Lekoopaxd moved too quickly! 90.803984263556,0.0,36.850981416283446
+[18:14:44] [Server thread/WARN]: Lekoopaxd moved too quickly! 136.74014458953394,0.0,53.94182268462515
+[18:14:44] [Server thread/WARN]: Lekoopaxd moved too quickly! 136.6052203539482,0.0,54.282519741350654
+[18:14:52] [Server thread/WARN]: Lekoopaxd moved too quickly! 10.226877909441612,-0.07544406518948676,-13.255855546281794
+[18:14:53] [Server thread/WARN]: Lekoopaxd moved too quickly! 10.1699528375608,0.0,-13.182070512716763
+[18:14:53] [Server thread/WARN]: Lekoopaxd moved too quickly! 10.1699528375608,0.0,-13.182070512716763
+[18:14:53] [Server thread/WARN]: Lekoopaxd moved too quickly! 6.5003083782081035,0.0,-8.996874816531516
+[18:15:10] [Server thread/WARN]: Lekoopaxd was kicked for floating too long!
+[18:15:10] [Server thread/INFO]: Lekoopaxd lost connection: Flying is not enabled on this server
+[18:15:10] [Server thread/INFO]: Lekoopaxd left the game
+[18:15:10] [Server thread/WARN]: handleDisconnection() called twice
+[18:15:20] [Server thread/INFO]: tima0r[/178.45.89.151:60792] logged in with entity id 205757 at (373.5390848714658, 63.0, -110.65379685898981)
+[18:15:20] [Server thread/INFO]: tima0r joined the game
+[18:16:58] [Server thread/INFO]: spy45242 lost connection: You logged in from another location
+[18:16:58] [Server thread/INFO]: spy45242 left the game
+[18:16:58] [Server thread/INFO]: spy45242[/104.28.221.39:12804] logged in with entity id 206737 at (145.850332342035, 53.0, -85.05267167554292)
+[18:16:58] [Server thread/INFO]: spy45242 joined the game
+[18:17:06] [Server thread/INFO]: spy45242 lost connection: You logged in from another location
+[18:17:06] [Server thread/INFO]: spy45242 left the game
+[18:17:06] [Server thread/INFO]: spy45242[/178.45.89.151:58083] logged in with entity id 207018 at (177.30000001192093, 92.0, -55.8861958538934)
+[18:17:06] [Server thread/INFO]: spy45242 joined the game
+[18:17:17] [Server thread/INFO]: spy45242 lost connection: You logged in from another location
+[18:17:17] [Server thread/INFO]: spy45242 left the game
+[18:17:17] [Server thread/INFO]: spy45242[/104.28.253.41:15124] logged in with entity id 207351 at (183.7566749506911, 92.0, -62.55317849452699)
+[18:17:17] [Server thread/INFO]: spy45242 joined the game
+[18:17:25] [Server thread/INFO]: spy45242 lost connection: You logged in from another location
+[18:17:25] [Server thread/INFO]: spy45242 left the game
+[18:17:25] [Server thread/INFO]: spy45242[/178.45.89.151:58102] logged in with entity id 207689 at (186.74318984749652, 92.0, 36.23555268330692)
+[18:17:25] [Server thread/INFO]: spy45242 joined the game
+[18:17:39] [Server thread/INFO]: spy45242 lost connection: You logged in from another location
+[18:17:39] [Server thread/INFO]: spy45242 left the game
+[18:17:39] [Server thread/WARN]: handleDisconnection() called twice
+[18:17:39] [Server thread/INFO]: spy45242[/104.28.253.41:15100] logged in with entity id 208068 at (188.60281882742083, 92.0, -40.27421444641921)
+[18:17:39] [Server thread/INFO]: spy45242 joined the game
+[18:17:51] [Server thread/INFO]: spy45242 tried to swim in lava
